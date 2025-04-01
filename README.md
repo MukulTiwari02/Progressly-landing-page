@@ -1,42 +1,144 @@
-# Dark SaaS Landing Page Starter Template
 
-This project is a starter template for the dark theme SaaS landing page project created by Frontend Tribe.
+# Progressly Landing Page
 
-This project includes elements adapted from "SaaS Website UI Kit" by Framer. Retrieved from [Source Link](https://www.figma.com/community/file/1347551304372055519) (licensed under CC BY 4.0).
+**Progressly** is a simple, modern landing page idea for a company named Progressly. Built with **Next.js**, **Tailwind CSS**, and **Framer Motion** for smooth animations, it’s the perfect start for any productivity-driven app.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## 🚀 **Live Demo**
 
-First, run the development server:
+You can see a live demo of the Progressly Landing Page by visiting the following link:
+
+[Live Demo](https://progressly-demo.vercel.app)
+
+---
+
+## 🛠️ **Technologies Used**
+
+- **Next.js** (v14.2.4)
+- **React** (v18) for building the interactive UI.
+- **Tailwind CSS** (v3.4.1) for styling with utility-first classes.
+- **Framer Motion** (v11.18.2) for animations.
+
+---
+
+## 🚀 **Getting Started**
+
+Follow the instructions below to get the **Progressly Landing Page** up and running locally:
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+cd progressly-landing-page
+```
+
+### 2. Install dependencies
+
+To install the required dependencies, run:
+
+```bash
+npm install
+```
+
+or if you're using yarn:
+
+```bash
+yarn install
+```
+
+### 3. Run the development server
+
+To start the Next.js development server, run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or with yarn:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You can now view the landing page at `http://localhost:3000`.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 **Scripts**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Here are some commonly used scripts you can run:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Start the app in development mode**:  
+  ```bash
+  npm run dev
+  ```
+  or  
+  ```bash
+  yarn dev
+  ```
 
-## Deploy on Vercel
+- **Build the app for production**:  
+  ```bash
+  npm run build
+  ```
+  or  
+  ```bash
+  yarn build
+  ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Start the app in production mode** (after building):  
+  ```bash
+  npm run start
+  ```
+  or  
+  ```bash
+  yarn start
+  ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Run ESLint to lint the code**:  
+  ```bash
+  npm run lint
+  ```
+  or  
+  ```bash
+  yarn lint
+  ```
+
+---
+
+## 📦 **Dependencies**
+
+- **framer-motion**: A popular animation library for React.
+- **next**: The React framework for building production-ready web apps.
+- **react**: A JavaScript library for building user interfaces.
+- **react-dom**: React's package for working with the DOM.
+
+---
+
+## 🛠️ **Dev Dependencies**
+
+- **@types/node, @types/react, @types/react-dom**: TypeScript type definitions for Node, React, and React DOM.
+- **eslint**: A tool for identifying and fixing problems in JavaScript/TypeScript code.
+- **eslint-config-next**: ESLint configuration for Next.js projects.
+- **postcss**: A tool for transforming CSS with JavaScript plugins.
+- **tailwindcss**: A utility-first CSS framework.
+- **typescript**: A statically typed superset of JavaScript for better code quality and maintainability.
+
+---
+
+## 🎨 **Customization**
+
+- **Styling**: Modify the Tailwind CSS classes in your components for custom designs.
+- **Images**: Update the images stored in the `public/` folder (e.g., `public/assets/`) to reflect your branding.
+- **Text**: Change the text content in components to match your app’s message and goals.
+
+---
+
+## 🔗 **Links**
+- [Framer Motion Documentation](https://www.framer.com/motion/)
+
+---
+
+## 💬 **Contributing**
+
+Feel free to open issues or submit pull requests for any improvements or bug fixes. We appreciate your contributions!
